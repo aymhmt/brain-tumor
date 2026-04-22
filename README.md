@@ -242,9 +242,9 @@ class Config:
 
     # Veri Artırma
     RANDOM_ERASING_PROB: float = 0.2
-    ROTATION_RANGE:      Tuple = (-8, 8)
-    BRIGHTNESS_RANGE:    Tuple = (0.95, 1.05)
-    CONTRAST_RANGE:      Tuple = (0.95, 1.05)
+    ROTATION_RANGE:      Tuple = (-50, 50)
+    BRIGHTNESS_RANGE:    Tuple = (0.50, 1.50)
+    CONTRAST_RANGE:      Tuple = (0.50, 1.50)
 
     # Görselleştirme
     NUM_SAMPLE_IMAGES: int  = 3
