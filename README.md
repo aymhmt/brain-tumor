@@ -1,5 +1,6 @@
 # 🧠 Çok Modelli MRI Beyin Tümörü Sınıflandırması
 
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
@@ -96,6 +97,8 @@ Sistem modüler, tekrarlanabilir ve genişletilebilir biçimde tasarlanmıştır
 
 ## 🔬 Ön İşleme Pipeline'ı
 
+![Veri Ön İşleme](on-isleme.png)
+
 Her MRI görüntüsü modele girmeden önce sıralı 6 adımlı ön işleme pipeline'ından geçirilir:
 
 ```
@@ -124,6 +127,8 @@ Orijinal Görüntü
 ```
 
 ---
+
+![Veri Arttırma](veri-arttirma.png)
 
 ## 🤖 Desteklenen Modeller
 
