@@ -47,9 +47,9 @@ class Config:
     RANDOM_ERASING_PROB: float = 0.2
     RANDOM_ERASING_SL: float = 0.020
     RANDOM_ERASING_SH: float = 0.4
-    ROTATION_RANGE: Tuple[float, float] = (-8, 8)
-    BRIGHTNESS_RANGE: Tuple[float, float] = (0.95, 1.05)
-    CONTRAST_RANGE: Tuple[float, float] = (0.95, 1.05)
+    ROTATION_RANGE: Tuple[float, float] = (-50, 50)
+    BRIGHTNESS_RANGE: Tuple[float, float] = (0.50, 1.50)
+    CONTRAST_RANGE: Tuple[float, float] = (0.50, 1.50)
 
     NUM_SAMPLE_IMAGES: int = 3
     VISUALIZE_STEPS: bool = True
